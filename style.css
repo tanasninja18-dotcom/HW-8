@@ -1,0 +1,58 @@
+.text-box h3:first-child {
+  color: pink;
+}
+#greycol{
+    color:grey
+}
+.text-box div p{
+    color:red
+}
+.text-box > p:nth-of-type(3){
+    color:green
+}
+.text-box p.yellow{
+    color:yellow;
+}
+
+
+.day ul li:first-child {
+    border: 4px solid rgba(0, 0, 0, 0.18);
+    padding: 8px;
+    font-weight: 700;
+}
+.day ul li:last-child {
+    background-color: aqua;
+    box-shadow: 0 0 0 2px black;
+}
+.day ul li:nth-of-type(2) {
+    border-radius: 12px; 
+    background-color: aquamarine;
+}
+.day ul li:nth-of-type(odd) {
+    background-color: lavender;
+    text-shadow: 2px 2px 4px #df7575;
+}
+.day ul li:only-child {
+    background-color: lightgreen;
+    padding: 12px 14px;
+}
+.day#mon:hover ul li {
+    background-color: lightcoral;
+    color: rgb(119, 41, 41);
+}
+.day#tue:checked ul li {
+    background-color: rgb(215, 107, 241);
+    color: rgb(211, 35, 187);
+}
+.day#wed:visited ul li {
+    background-color: rgb(75, 95, 207);
+    color: rgb(42, 0, 194);
+}
+.day#thu:active ul li {
+    background-color: rgb(102, 240, 153);
+    color: rgb(0, 153, 76);
+}
+.day#fri:focus ul li {
+    background-color: rgb(255, 199, 80);
+    color: rgb(204, 102, 0);
+}
